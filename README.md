@@ -27,7 +27,7 @@ This CKAN plugin provides following endpoints to support NDP users submitting ne
   
 * ##### POST <CKAN_URL>/ndp/my_package_list
 
-
+  List all datasets by the current user.
 
 ## Requirements
 
