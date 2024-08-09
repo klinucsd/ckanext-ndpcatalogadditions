@@ -1,4 +1,3 @@
-[![Tests](https://github.com/SDSC/ckanext-ndpcatalogadditions/workflows/Tests/badge.svg?branch=main)](https://github.com/SDSC/ckanext-ndpcatalogadditions/actions)
 
 # ckanext-ndpcatalogadditions
 
