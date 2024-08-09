@@ -31,7 +31,7 @@ This CKAN plugin provides following endpoints to support NDP users submitting ne
   
 * ##### GET/POST <CKAN_URL>/ndp/my_package_list
 
-  List all datasets by the current user.
+  List all datasets submitted by the current user.
 
 This plugin creates a new Prekan account for the user, if the information in the Keycloak token used by the user does not have a corresponding account in Prekan.
 
