@@ -4,10 +4,10 @@
 This CKAN plugin provides following endpoints to support NDP users submitting new datasets to Prekan, as well as modifying datasets that have already been submitted. Users must use a valid Keycloak token as a Bearer token to access these endpoints. submited datasets are not formally transferred to the NDP catalog until they have been reviewed.
 
 * ##### POST <CKAN_URL>/ndp/package_create
-* POST <CKAN_URL>/ndp/package_update
-* POST <CKAN_URL>/ndp/package_delete
-* POST <CKAN_URL>/ndp/package_purge
-* POST <CKAN_URL>/ndp/my_package_list
+* ##### POST <CKAN_URL>/ndp/package_update
+* ##### POST <CKAN_URL>/ndp/package_delete
+* ##### POST <CKAN_URL>/ndp/package_purge
+* ##### POST <CKAN_URL>/ndp/my_package_list
 
 
 
