@@ -1,3 +1,21 @@
+Metadata-Version: 2.1
+Name: ckanext-ndpcatalogadditions
+Version: 0.0.1
+Summary: support adding new datasets from NDP
+Home-page: https://github.com/SDSC/ckanext-ndpcatalogadditions
+Author: Kai Lin
+Author-email: klin@sdsc.edu
+License: AGPL
+Keywords: CKAN NDP
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
 [![Tests](https://github.com/SDSC/ckanext-ndpcatalogadditions/workflows/Tests/badge.svg?branch=main)](https://github.com/SDSC/ckanext-ndpcatalogadditions/actions)
 
 # ckanext-ndpcatalogadditions
