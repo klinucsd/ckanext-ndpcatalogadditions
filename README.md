@@ -5,11 +5,6 @@ This CKAN plugin provides several endpoints to support NDP users submitting new 
 
 ## Requirements
 
-**TODO:** For example, you might want to mention here which versions of CKAN this
-extension works with.
-
-If your extension works across different versions you can add the following table:
-
 Compatibility with core CKAN versions:
 
 | CKAN version    | Compatible?   |
