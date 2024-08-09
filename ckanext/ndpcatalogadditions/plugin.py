@@ -4,7 +4,7 @@ from flask import Blueprint
 from ckanext.ndp.controller import create_package, update_package, delete_package, purge_package, list_my_packages
 
 
-class NdpPlugin(plugins.SingletonPlugin):
+class NdpcatalogadditionsPlugin(plugins.SingletonPlugin):
     plugins.implements(plugins.IConfigurer)
     plugins.implements(plugins.IBlueprint)    
     
