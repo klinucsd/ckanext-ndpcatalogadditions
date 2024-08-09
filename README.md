@@ -17,6 +17,10 @@ This CKAN plugin provides following endpoints to support NDP users submitting ne
 
   Delete a dataset in Prekan by submitting a JSON string with the fields specified in this link:
   https://docs.ckan.org/en/2.10/api/#ckan.logic.action.create.package_delete
+
+  Deleting a dataset does not physically remove the dataset entirely.
+  The dataset is simply marked as deleted in Prekan so that it no longer appears in the list of
+  datasets and in search results. To actually delete a dataset call package_purge as an administrator.
   
 * ##### POST <CKAN_URL>/ndp/package_purge
 
