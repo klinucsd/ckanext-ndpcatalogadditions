@@ -25,7 +25,7 @@ This CKAN plugin provides following endpoints to support NDP users submitting ne
 
   Please note that the admin privilege is required to invoke this endpoint.
   
-* ##### POST <CKAN_URL>/ndp/my_package_list
+* ##### GET/POST <CKAN_URL>/ndp/my_package_list
 
   List all datasets by the current user.
 
