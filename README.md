@@ -44,18 +44,6 @@ To install ckanext-ndpcatalogadditions:
 
      sudo service apache2 reload
 
-
-## Config settings
-
-None at present
-
-**TODO:** Document any optional config settings here. For example:
-
-	# The minimum number of hours to wait before re-checking a resource
-	# (optional, default: 24).
-	ckanext.ndpcatalogadditions.some_setting = some_default_value
-
-
 ## Developer installation
 
 To install ckanext-ndpcatalogadditions for development, activate your CKAN virtualenv and
