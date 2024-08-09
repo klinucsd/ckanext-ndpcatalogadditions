@@ -22,6 +22,7 @@ This CKAN plugin provides following endpoints to support NDP users submitting ne
 
   Purge a dataset in Prekan by submitting a JSON string with the fields specified in this link:
   https://docs.ckan.org/en/2.10/api/#ckan.logic.action.create.package_purge.
+
   Please note that the admin privilege is required to invoke this endpoint.
   
 * ##### POST <CKAN_URL>/ndp/my_package_list
