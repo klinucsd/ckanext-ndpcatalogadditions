@@ -29,6 +29,12 @@ This CKAN plugin provides following endpoints to support NDP users submitting ne
 
   List all datasets by the current user.
 
+This plugin creates a new Prekan account for the user, if the information in the Keycloak token used by the user does not have a corresponding account in Prekan.
+
+The plugin also creates a new Prekan organization if the dataset belongs to an organization that does not exist in Prekan.
+
+When a user includes the organization to which the dataset belongs in a request for the dataset, the user will be added to that organization as an editor.
+
 ## Requirements
 
 Compatibility with core CKAN versions:
