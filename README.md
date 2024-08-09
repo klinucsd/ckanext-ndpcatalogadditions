@@ -1,9 +1,7 @@
-[![Tests](https://github.com/SDSC/ckanext-ndpcatalogadditions/workflows/Tests/badge.svg?branch=main)](https://github.com/SDSC/ckanext-ndpcatalogadditions/actions)
 
 # ckanext-ndpcatalogadditions
 
-**TODO:** Put a description of your extension here:  What does it do? What features does it have? Consider including some screenshots or embedding a video!
-
+This CKAN plugin provides several endpoints to support NDP users submitting new datasets to Prekan, as well as modifying datasets that have already been submitted. Users must use a valid Keycloak token as a Bearer token to access these endpoints. submited datasets are not formally transferred to the NDP catalog until they have been reviewed.
 
 ## Requirements
 
