@@ -41,6 +41,8 @@ The plugin also creates a new Prekan organization if the dataset belongs to an o
 
 When a user includes the organization to which the dataset belongs in a request for the dataset, the user will be added to that organization as an editor.
 
+### For Users Reviewing Datasets
+
 ## Requirements
 
 Compatibility with core CKAN versions:
