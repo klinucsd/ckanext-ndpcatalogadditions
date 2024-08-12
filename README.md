@@ -49,12 +49,14 @@ When a user includes the organization to which the dataset belongs in a request 
   https://docs.ckan.org/en/2.10/api/#ckan.logic.action.delete.dataset_purge
 
   This endpoint copies the specified dataset to the production CKAN catalog. The correspondence between the dataset and its creator and the organization it 
-  belongs to is also copied to the production CKAN's catalog.
+  belongs to is also copied to the production CKAN's catalog. After a successful copy operation, the dataset in Prekan is marked as deleted.
   
 * ##### POST <CKAN_URL>/ndp/package_reject
 
   Reject a dataset in Prekan by submitting a JSON string with the fields specified in this link:
   https://docs.ckan.org/en/2.10/api/#ckan.logic.action.delete.dataset_purge
+
+  This endpoint will completely purge the specified dataset from Prekan.
 
 ## Requirements
 
